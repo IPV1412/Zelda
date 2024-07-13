@@ -11,8 +11,6 @@ public class PlayerController : MonoBehaviour
     {
         
     }
-
-    
     void Update()
     {
         if (Mathf.Abs(Input.GetAxisRaw(AXIS_H)) > 0.2f)
