@@ -9,13 +9,19 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Diego.unity
+    path: Assets/Scenes/Game.unity
     guid: 554714af70cb77a478e9a05b6067403b
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 75f917f7a430ffc4eae08b4638ae1b32
+  - enabled: 1
+    path: Assets/Scenes/Lose.unity
+    guid: e70627c401ce4ad41a458c57b96705be
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 7880cd6fa7e924f4aa3de23aa6f47af5
   - enabled: 1
     path: Assets/Scenes/Creditos.unity
     guid: 25f469d92470a8c43a54b8161cc6087b
-  - enabled: 1
-    path: Assets/Scenes/Pantalla de carga.unity
-    guid: 28089b9ae270ce942aaba4c240ba1592
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
