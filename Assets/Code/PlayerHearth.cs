@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
-using UnityEngine.SceneManagement; // Necesario para SceneManager
+using UnityEngine.SceneManagement;
 
 public class PlayerHearth : MonoBehaviour
 {
     [SerializeField] private RawImage[] Heart;
-    private int Contenedor;
+    private int Vida;
     public string Lose;
 
     void Start()
     {
-        Contenedor = Heart.Length;
+        Vida = Heart.Length;
         UpdateHearts();
     }
 
@@ -26,24 +26,45 @@ public class PlayerHearth : MonoBehaviour
     {
         if (Collision.gameObject.tag == "Enemy")
         {
-            Contenedor--;
+            Vida -= 1;
         }
+        else if (Collision.gameObject.tag == "Trupper")
+        {
+            Vida -= 2;
+        }
+        else if (Collision.gameObject.tag == "Boss")
+        {
+            Vida -= 3;
+        }
+        Vida = Mathf.Clamp(Vida, 0, Heart.Length);
+        UpdateHearts();
     }
-
     private void UpdateHearts()
     {
         for (int i = 0; i < Heart.Length; i++)
         {
-            Heart[i].enabled = i < Contenedor;
+            Heart[i].enabled = i < Vida;
         }
     }
 
     private void gameOver()
     {
-        if (Contenedor <= 0)
+        if (Vida <= 0)
         {
             SceneManager.LoadScene(Lose);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D Collision)
+    {
+        if (Collision.gameObject.tag == "Vida")
+        {
+            Vida++;
+            Vida = Mathf.Clamp(Vida, 0, Heart.Length);
+            Destroy(Collision.gameObject);
+            UpdateHearts();
+        }
+    }
+
 }
 

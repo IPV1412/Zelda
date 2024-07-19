@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Vida
+  - Boss
+  - Trupper
   layers:
   - Default
   - TransparentFX
