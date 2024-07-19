@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour
 {
-    public GameObject optionsPanel; 
+
 
     public void ChangeScene(string sceneName)
     {
@@ -17,9 +17,6 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadScene(sceneIndex);
     }
 
-    public void ToggleOptionsPanel()
-    {
-        optionsPanel.SetActive(!optionsPanel.activeSelf);
-    }
+
 }
 
