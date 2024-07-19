@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      black_heart_0: 3304745079249858841
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
