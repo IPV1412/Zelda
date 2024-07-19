@@ -15,5 +15,13 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene(sceneIndex);
     }
+       public void QuitGame()
+    {
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #else
+        Application.Quit();
+        #endif
+    }
 }
 

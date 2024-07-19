@@ -55,16 +55,20 @@ public class PlayerHearth : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D Collision)
+private void OnTriggerEnter2D(Collider2D collision)
+{
+    if (Vida == 5)
     {
-        if (Collision.gameObject.tag == "Vida")
-        {
-            Vida++;
-            Vida = Mathf.Clamp(Vida, 0, Heart.Length);
-            Destroy(Collision.gameObject);
-            UpdateHearts();
-        }
+        return;
     }
+    else if (collision.gameObject.tag == "Vida")
+    {
+        Vida++;
+        Vida = Mathf.Clamp(Vida, 0, Heart.Length);
+        Destroy(collision.gameObject);
+        UpdateHearts();
+    }
+}
 
 }
 
