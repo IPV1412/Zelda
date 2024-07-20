@@ -268,6 +268,7 @@ MonoBehaviour:
   textPrefab: {fileID: 7048201129031301181, guid: 74023cdee99b8c049b082b378c0cd471, type: 3}
   signMessage: 
   canvas: {fileID: 392284701}
+  newFont: {fileID: 0}
 --- !u!1 &208578283
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,7 +469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -670,6 +671,7 @@ MonoBehaviour:
   textPrefab: {fileID: 7048201129031301181, guid: 74023cdee99b8c049b082b378c0cd471, type: 3}
   signMessage: 
   canvas: {fileID: 392284701}
+  newFont: {fileID: 0}
 --- !u!1 &770033105
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,6 +821,7 @@ MonoBehaviour:
   textPrefab: {fileID: 7048201129031301181, guid: 74023cdee99b8c049b082b378c0cd471, type: 3}
   signMessage: "EST\xC1S "
   canvas: {fileID: 392284701}
+  newFont: {fileID: 0}
 --- !u!1 &797365528
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,6 +971,7 @@ MonoBehaviour:
   textPrefab: {fileID: 7048201129031301181, guid: 74023cdee99b8c049b082b378c0cd471, type: 3}
   signMessage: 
   canvas: {fileID: 392284701}
+  newFont: {fileID: 0}
 --- !u!1 &862524913
 GameObject:
   m_ObjectHideFlags: 0
@@ -45425,6 +45429,7 @@ MonoBehaviour:
   textPrefab: {fileID: 7048201129031301181, guid: 74023cdee99b8c049b082b378c0cd471, type: 3}
   signMessage: PENDEJO
   canvas: {fileID: 392284701}
+  newFont: {fileID: 0}
 --- !u!1 &1054695915
 GameObject:
   m_ObjectHideFlags: 0
@@ -45814,6 +45819,7 @@ MonoBehaviour:
   textPrefab: {fileID: 7048201129031301181, guid: 74023cdee99b8c049b082b378c0cd471, type: 3}
   signMessage: 
   canvas: {fileID: 392284701}
+  newFont: {fileID: 0}
 --- !u!1 &1185811086
 GameObject:
   m_ObjectHideFlags: 0
@@ -45964,6 +45970,7 @@ MonoBehaviour:
   textPrefab: {fileID: 7048201129031301181, guid: 74023cdee99b8c049b082b378c0cd471, type: 3}
   signMessage: "C\xD3MO"
   canvas: {fileID: 392284701}
+  newFont: {fileID: 0}
 --- !u!61 &1185811091
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46358,6 +46365,7 @@ MonoBehaviour:
   textPrefab: {fileID: 7048201129031301181, guid: 74023cdee99b8c049b082b378c0cd471, type: 3}
   signMessage: 
   canvas: {fileID: 392284701}
+  newFont: {fileID: 0}
 --- !u!1 &1604174717
 GameObject:
   m_ObjectHideFlags: 0
@@ -46599,6 +46607,7 @@ MonoBehaviour:
   textPrefab: {fileID: 7048201129031301181, guid: 74023cdee99b8c049b082b378c0cd471, type: 3}
   signMessage: 
   canvas: {fileID: 392284701}
+  newFont: {fileID: 0}
 --- !u!1 &1807111687
 GameObject:
   m_ObjectHideFlags: 0
@@ -46748,6 +46757,7 @@ MonoBehaviour:
   textPrefab: {fileID: 7048201129031301181, guid: 74023cdee99b8c049b082b378c0cd471, type: 3}
   signMessage: 
   canvas: {fileID: 392284701}
+  newFont: {fileID: 0}
 --- !u!1 &1809001450
 GameObject:
   m_ObjectHideFlags: 0
@@ -56456,6 +56466,7 @@ MonoBehaviour:
   textPrefab: {fileID: 7048201129031301181, guid: 74023cdee99b8c049b082b378c0cd471, type: 3}
   signMessage: 
   canvas: {fileID: 392284701}
+  newFont: {fileID: 0}
 --- !u!1 &2006560525
 GameObject:
   m_ObjectHideFlags: 0
@@ -56605,6 +56616,7 @@ MonoBehaviour:
   textPrefab: {fileID: 7048201129031301181, guid: 74023cdee99b8c049b082b378c0cd471, type: 3}
   signMessage: HOLA
   canvas: {fileID: 392284701}
+  newFont: {fileID: 0}
 --- !u!1 &2019763986
 GameObject:
   m_ObjectHideFlags: 0
@@ -61052,6 +61064,7 @@ MonoBehaviour:
   textPrefab: {fileID: 7048201129031301181, guid: 74023cdee99b8c049b082b378c0cd471, type: 3}
   signMessage: 
   canvas: {fileID: 392284701}
+  newFont: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

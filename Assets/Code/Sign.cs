@@ -3,9 +3,10 @@ using TMPro; // Importa el espacio de nombres para TextMesh Pro
 
 public class Sign : MonoBehaviour
 {
-    public GameObject textPrefab; // Asigna el prefab del texto desde el inspector
-    public string signMessage; // Mensaje específico para cada cartel
-    public Canvas canvas; // Asigna el Canvas desde el inspector
+    public GameObject textPrefab;  //prefab del texto que se instanciará en el canvas
+    public string signMessage; //mensaje del cartel
+    public Canvas canvas; //el canvas xd
+    public TMP_FontAsset newFont;
 
     private GameObject textInstance; // Instancia del texto
     private TextMeshProUGUI textMesh; // Componente TextMeshProUGUI del texto
