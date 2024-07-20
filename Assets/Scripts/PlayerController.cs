@@ -6,10 +6,10 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 0.5f;
     private const string AXIS_H = "Horizontal", AXIS_V = "Vertical";
-    
+    private Animator _animator;
     void Start()
     {
-        
+        _animator = GetComponent<Animator>();
     }
     void Update()
     {
@@ -25,5 +25,11 @@ public class PlayerController : MonoBehaviour
                 Input.GetAxisRaw(AXIS_V) * speed * Time.deltaTime, 0);
             this.transform.Translate(translation);
         }
+    }
+
+    private void LateUpdate()
+    {
+        _animator.SetFloat(AXIS_H, Input.GetAxisRaw(AXIS_H));
+        _animator.SetFloat(AXIS_V, Input.GetAxisRaw(AXIS_V));
     }
 }
