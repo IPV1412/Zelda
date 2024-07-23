@@ -64,10 +64,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SlimeGreen
       objectReference: {fileID: 0}
-    - target: {fileID: 4044437850019777949, guid: 70fcb8affa489d94d9df76e04abce9dd, type: 3}
-      propertyPath: m_TagString
-      value: Trupper
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
